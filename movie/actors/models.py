@@ -5,9 +5,9 @@ from django.db.models import CharField
 
 
 class Maleact(models.Model):
-    title = models.CharField('Имя', max_length=100, default="NONE")
-    best_movies = models.CharField('Лучшие фильмы', max_length=100, default="The best")
-    biographi = models.TextField('Биография', max_length=250, default="Good or bad actor")
+    title = models.CharField('Имя', max_length=100, default="")
+    best_movies = models.CharField('Лучшие фильмы', max_length=100, default="")
+    biographi = models.TextField('Биография', max_length=250, default="")
     date = models.DateField('Дата рождения')
     
     def __str__(self):
