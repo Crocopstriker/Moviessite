@@ -1,0 +1,9 @@
+body {
+    background:url('/static/moviemain/img/fon.jpg') center;
+    background-size:cover;
+}
+.redirect {
+    background: red;
+    display: block;
+    color: #fff;
+}

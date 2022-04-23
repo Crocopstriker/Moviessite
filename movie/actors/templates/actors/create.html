@@ -1,0 +1,23 @@
+{% extends 'moviemain/index.html' %}
+
+{% block title %}Форма по добавлению актеров{% endblock %}
+
+{% block cont %}
+    <div class="features">
+        <h1>Форма по добавленю актеров</h1>
+        <form method="post">
+            {% csrf_token %}<br>
+            {{ form.title}}<br>
+            {{ form.best_movies}}<br>
+            {{ form.biographi}}<br>
+            {{ form.date}}<br>
+            {{ error }}
+            <button class="btn-success" type="submit">Добавить актера</button>
+        </form>
+    </div>
+
+
+
+
+
+{% endblock %}
