@@ -1,9 +1,27 @@
 body {
-    background:url('/static/moviemain/img/fon.jpg') center;
+    background: white;
     background-size:cover;
 }
-.redirect {
-    background: red;
-    display: block;
-    color: #fff;
+
+aside {
+    float: left;
+    background: #1818181;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: black;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 200px;
+    float: left;
+}
+
+aside .logo{
+   font-size: 40px;
+   margin-left: 0px;
+   font-weight: bold;
+   position: relative;
+   top: -30px;
 }
